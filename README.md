@@ -1,9 +1,11 @@
 # mcp-stockinfo
 
-## Build Image 
+
+## Run the mcp server
+Open the terminal in the proejct folder and run the following command
 
 ```
-podman build -t yf .
+uv run server.py
 ```
 
 ## Run MCP Inspector 
@@ -12,16 +14,8 @@ podman build -t yf .
 npx @modelcontextprotocol/inspector
 ```
 
-## try SSE
+## Add it into your claude desktop
 
 ```
-npx @modelcontextprotocol/inspector
-
-```
-
-### Run debug 
-
-```
-chmod +x debug_codeengine_app.sh
 
 ```
